@@ -2,6 +2,8 @@
 
 The *Simulation Database Abstraction Layer* can be used to abstract database accesses to store tracing data during simulation.
 It provides a thread-safe interface and backend implementations for SQLite and a CSV-based database.
+The project contains predefined entry types which can be stored in the database.
+Documentation of the resulting database tables can be found [here](./doc/table-description.md).
 
 [![Build Status](https://github.com/nbosb/simdal/workflows/cmake/badge.svg?event=push)](https://github.com/nbosb/simdal/actions/workflows/cmake.yml)
 
@@ -47,6 +49,10 @@ It provides a thread-safe interface and backend implementations for SQLite and a
     <install-dir>/lib64/libsimdal.a  # simdal library
     <install-dir>/tests              # unit tests (if enabled)
     ```
+
+## Documentation
+
+An overview of the created tables of the database can be found [here](./doc/table-description.md).
 
 ## License
 
